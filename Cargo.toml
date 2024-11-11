@@ -75,6 +75,8 @@ ark-pallas = "0.4.0"
 ark-vesta = "0.4.0"
 ark-test-curves = { version = "0.4.2", features = ["bls12_381_curve"] }
 
+openssl = { version = "0.10", features = ["vendored"] }
+
 [patch.crates-io]
 ark-crypto-primitives = { git = "https://github.com/arkworks-rs/crypto-primitives", rev = "d27a5c8" }
 
